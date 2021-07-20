@@ -19,11 +19,14 @@
   "homepage": "https://github.com/ultraarc/text-editor#readme",
   "dependencies": {
     "@ckeditor/ckeditor5-basic-styles": "^29.0.0",
+    "@ckeditor/ckeditor5-core": "^29.0.0",
     "@ckeditor/ckeditor5-dev-utils": "^25.2.6",
     "@ckeditor/ckeditor5-editor-classic": "^29.0.0",
     "@ckeditor/ckeditor5-essentials": "^29.0.0",
+    "@ckeditor/ckeditor5-image": "^29.0.0",
     "@ckeditor/ckeditor5-paragraph": "^29.0.0",
-    "@ckeditor/ckeditor5-theme-lark": "^29.0.0"
+    "@ckeditor/ckeditor5-theme-lark": "^29.0.0",
+    "@ckeditor/ckeditor5-ui": "^29.0.0"
   },
   "devDependencies": {
     "postcss-loader": "^3.0.0",
