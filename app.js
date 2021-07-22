@@ -13,6 +13,12 @@ ClassicEditor.create(document.querySelector("#editor"), {
 })
   .then((editor) => {
     console.log("Editor was initialized", editor);
+    editor.model.document.on("change", () => {
+      console.log("The document has changed!");
+    });
+    editor.model.document.on("change:data", () => {
+      console.log("The data has changed!");
+    });
   })
   .catch((error) => {
     console.error(error.stack);
